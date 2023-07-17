@@ -90,28 +90,56 @@
 # with open('new_new_user.json', 'w', encoding='utf-8') as f:
 #     json.dump(my_dict, f, ensure_ascii=False)
 ###################################################################################
-import json
-
-my_dict = {
-    "first_name": "Джон",
-    "last_name": "Смит",
-    "hobbies": ["кузнечное дело", "программирование", "путешествия"],
-    "age": 35,
-    "children": [
-        {
-            "first_name": "Алиса",
-            "age": 5
-        }, {
-            "age": 3
-        }
-    ]
-}
-dict_to_json_text = json.dumps(my_dict)
-print(f'{type(dict_to_json_text) = }\n{dict_to_json_text = }')
+# import json
+#
+# my_dict = {
+#     "first_name": "Джон",
+#     "last_name": "Смит",
+#     "hobbies": ["кузнечное дело", "программирование", "путешествия"],
+#     "age": 35,
+#     "children": [
+#         {
+#             "first_name": "Алиса",
+#             "age": 5
+#         }, {
+#             "age": 3
+#         }
+#     ]
+# }
+# dict_to_json_text = json.dumps(my_dict)
+# print(f'{type(dict_to_json_text) = }\n{dict_to_json_text = }')
 ###################################################################################
-
+# import json
+# my_dict = {
+#     "id": 123,
+#     "name": "Clementine Bauche",
+#     "username": "Cleba",
+#     "email": "cleba@corp.mail.ru",
+#     "address": {
+#         "street": "Central",
+#         "city": "Metropolis",
+#         "zipcode": "123456"
+#     },
+#     "phone": "+7-999-123-45-67"
+# }
+# res = json.dumps(my_dict, indent=2, separators=(',', ':'), sort_keys=True)
+# print(res)
 ###################################################################################
+# import json
+# a = 'Hello world!'
+# b = {key: value for key, value in enumerate(a)}
+# d = {value: key for key, value in enumerate(a)}
+# c = json.dumps(b, indent=3, separators=('; ', '= '))
+# j = json.dumps(d, indent=3, separators=('; ', '= '))
+# print(c)
+# print(j)
 ###################################################################################
+import csv
+with open('biostats.csv', 'r', newline='') as f:
+    csv_file = csv.reader(f)
+    for line in csv_file:
+        print(line)
+    print(type(line))
 ###################################################################################
 ###################################################################################
 ###################################################################################
