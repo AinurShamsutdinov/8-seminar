@@ -25,11 +25,11 @@ def input_data():
             print("Records are empty.")
 
         # check if id is unique
-        name, id, access_lvl = input('Enter name, ID, access_lvl: ').split()
+        name, id_user, access_lvl = input('Enter name, ID, access_lvl: ').split()
         access_lvl = int(access_lvl)
         set_ids = set()
         for user in user_list:
-            if id in user.keys():
+            if id_user in user.keys():
                 is_id_unique = False
                 print('Id is not unique')
                 break
@@ -38,7 +38,7 @@ def input_data():
             is_access_level_ok = False
             print('Access level should be between 1 and 7')
         else:
-            new_user = {id: name, 'access_lvl': access_lvl}
+            new_user = {id_user: name, 'access_lvl': access_lvl}
             user_list.append(new_user)
             is_access_level_ok = True
 
