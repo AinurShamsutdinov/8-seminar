@@ -15,10 +15,13 @@ def json_to_csv(read_csv, write_json):
             open(read_csv, 'r', newline='', encoding='utf-8') as f_read):
         csv_read = csv.reader(f_read, dialect='excel', delimiter=';')
         user_list_json = list()
+
         for i, line in enumerate(csv_read):
             if i != 0:
                 row_dict = dict()
                 id_user = line[0]
+                buffer = ''.join('0' for i in range(len(str(id_user)), 10))
+                id_user = buffer + str(id_user)
                 str().capitalize()
                 name = line[1].capitalize()
                 hash_sum = 32 + name.__hash__() + id_user.__hash__()
