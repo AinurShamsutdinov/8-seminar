@@ -16,7 +16,6 @@ def json_to_csv():
                 head = ['id', 'name', 'access_level']
                 csv_write.writerow(head)
             id_user = list(line.keys())[0]
-            print(f'{id_user = }')
             name = line.get(id_user)
             access_lvl = line.get('access_lvl')
             list_wrt = [id_user, name, access_lvl]
