@@ -16,8 +16,8 @@ def json_file_to_pikle(file_name):
 
 def read_pickle():
     with open('users.pickle', 'rb') as f_read:
-        new_list = pickle.load(f_read)
-        print(f'{new_list = }')
+        new_dict = pickle.load(f_read)
+        print(f'{new_dict = }')
 
 
 if __name__ == "__main__":
