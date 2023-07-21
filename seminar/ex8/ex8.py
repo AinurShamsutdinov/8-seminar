@@ -53,5 +53,3 @@ def return_dir_pathlib(path):
 if __name__ == "__main__":
     path = '/Users/ainur/PycharmProjects/8-seminar/seminar'
     list_of_files = return_dir_pathlib(path)
-    for item in enumerate(list_of_files):
-        print(f'{item}')
