@@ -1,0 +1,236 @@
+[
+  {
+    "file": ".DS_Store",
+    "parent_dir": "seminar",
+    "is_dir": false,
+    "size": 6148
+  },
+  {
+    "file": "ex7",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 840
+  },
+  {
+    "file": "ex6",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 1644
+  },
+  {
+    "file": "ex1",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 2639023
+  },
+  {
+    "file": "ex8",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 3576
+  },
+  {
+    "file": "ex4",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 2407
+  },
+  {
+    "file": "ex3",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 1272
+  },
+  {
+    "file": "ex2",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 2441
+  },
+  {
+    "file": "ex5",
+    "parent_dir": "seminar",
+    "is_dir": true,
+    "size": 2316
+  },
+  {
+    "file": "ex7.py",
+    "parent_dir": "ex7",
+    "is_dir": false,
+    "size": 483
+  },
+  {
+    "file": "users.pickle",
+    "parent_dir": "ex7",
+    "is_dir": false,
+    "size": 357
+  },
+  {
+    "file": "ex6.py",
+    "parent_dir": "ex6",
+    "is_dir": false,
+    "size": 1208
+  },
+  {
+    "file": "users.csv",
+    "parent_dir": "ex6",
+    "is_dir": false,
+    "size": 79
+  },
+  {
+    "file": "users.pickle",
+    "parent_dir": "ex6",
+    "is_dir": false,
+    "size": 357
+  },
+  {
+    "file": "result.txt",
+    "parent_dir": "ex1",
+    "is_dir": false,
+    "size": 1763
+  },
+  {
+    "file": "Семинар 8. Погружение в Python. Сериализация.pdf",
+    "parent_dir": "ex1",
+    "is_dir": false,
+    "size": 2633890
+  },
+  {
+    "file": "result.json",
+    "parent_dir": "ex1",
+    "is_dir": false,
+    "size": 2342
+  },
+  {
+    "file": "ex1.py",
+    "parent_dir": "ex1",
+    "is_dir": false,
+    "size": 1028
+  },
+  {
+    "file": "directory_content.pickle",
+    "parent_dir": "ex8",
+    "is_dir": false,
+    "size": 628
+  },
+  {
+    "file": "ex8.py",
+    "parent_dir": "ex8",
+    "is_dir": false,
+    "size": 2881
+  },
+  {
+    "file": "test",
+    "parent_dir": "ex8",
+    "is_dir": true,
+    "size": 22
+  },
+  {
+    "file": "directory_content.csv",
+    "parent_dir": "ex8",
+    "is_dir": false,
+    "size": 627
+  },
+  {
+    "file": "directory_content.json",
+    "parent_dir": "ex8",
+    "is_dir": false,
+    "size": 2199
+  },
+  {
+    "file": "test.py",
+    "parent_dir": "test",
+    "is_dir": false,
+    "size": 22
+  },
+  {
+    "file": "test2",
+    "parent_dir": "test",
+    "is_dir": true,
+    "size": 0
+  },
+  {
+    "file": "users.csv",
+    "parent_dir": "ex4",
+    "is_dir": false,
+    "size": 79
+  },
+  {
+    "file": "users.json",
+    "parent_dir": "ex4",
+    "is_dir": false,
+    "size": 442
+  },
+  {
+    "file": "ex4.py",
+    "parent_dir": "ex4",
+    "is_dir": false,
+    "size": 1886
+  },
+  {
+    "file": "users.csv",
+    "parent_dir": "ex3",
+    "is_dir": false,
+    "size": 79
+  },
+  {
+    "file": "ex3.py",
+    "parent_dir": "ex3",
+    "is_dir": false,
+    "size": 990
+  },
+  {
+    "file": "users.json",
+    "parent_dir": "ex3",
+    "is_dir": false,
+    "size": 203
+  },
+  {
+    "file": "ex2.py",
+    "parent_dir": "ex2",
+    "is_dir": false,
+    "size": 2189
+  },
+  {
+    "file": "users.json",
+    "parent_dir": "ex2",
+    "is_dir": false,
+    "size": 252
+  },
+  {
+    "file": "users2.pickle",
+    "parent_dir": "ex5",
+    "is_dir": false,
+    "size": 233
+  },
+  {
+    "file": "users.json",
+    "parent_dir": "ex5",
+    "is_dir": false,
+    "size": 442
+  },
+  {
+    "file": "users.pickle",
+    "parent_dir": "ex5",
+    "is_dir": false,
+    "size": 225
+  },
+  {
+    "file": "ex5.py",
+    "parent_dir": "ex5",
+    "is_dir": false,
+    "size": 914
+  },
+  {
+    "file": "test.txt",
+    "parent_dir": "ex5",
+    "is_dir": false,
+    "size": 49
+  },
+  {
+    "file": "users2.json",
+    "parent_dir": "ex5",
+    "is_dir": false,
+    "size": 453
+  }
+]
